@@ -1,2 +1,2 @@
-rvm ruby-1.9.2-p180@site-clientela
+rvm ruby-1.9.2-p180@site-clientela --create
 alias jekyll="bundle exec jekyll"
