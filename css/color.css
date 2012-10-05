@@ -11,10 +11,11 @@ body {
 
 /* line 7, ../_sass/color.scss */
 h2 {
-  font-size: 2em;
-  font-weight: bold;
+  font-size: 2.8em;
+  font-weight: normal;
   color: #fff;
-  line-height: 45px;
+  line-height: 60px;
+  font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
 }
 
 /* line 14, ../_sass/color.scss */
@@ -23,6 +24,8 @@ h3 {
   font-weight: bold;
   color: #5D923C;
   margin-bottom: 15px;
+  font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+  text-shadow: 0 1px 0 #fff;
 }
 
 /* line 21, ../_sass/color.scss */
@@ -151,12 +154,12 @@ div#header div#logo-center h1 a {
 /* line 145, ../_sass/color.scss */
 div#banner-under {
   background: white url(/images/bg_middle_header.jpg);
-  padding: 25px 0 0 0;
+  padding: 25px 0;
 }
 /* line 149, ../_sass/color.scss */
 div#banner-under p {
   line-height: 20px;
-  font-size: 0.8em;
+  font-size: 0.9em;
   margin-bottom: 15px;
 }
 
@@ -175,7 +178,7 @@ div#banner {
   background: white url(/images/bg_header.jpg) repeat-x;
   padding-top: 30px;
   display: block;
-  height: 383px;
+  height: 280px;
 }
 /* line 170, ../_sass/color.scss */
 div#banner p {
@@ -406,8 +409,24 @@ div#plans div.plan.all div.header {
 
 /* line 401, ../_sass/color.scss */
 div#under-footer {
-  padding: 10px 0;
+  padding: 40px 0;
   background-image: url("/images/bg_lower_footer.jpg");
+}
+
+div#under-footer a {
+  margin: auto;
+  display: block;
+  width: 300px;
+  text-align: center;
+  opacity: .8;
+}
+
+div#under-footer a:hover {
+  opacity: 1;
+}
+
+div#under-footer a img {
+  margin-bottom: 10px;
 }
 /* line 405, ../_sass/color.scss */
 div#under-footer a {
