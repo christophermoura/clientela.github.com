@@ -96,15 +96,16 @@ div.big p {
 /* line 85, ../_sass/color.scss */
 blockquote {
   color: #fff;
-  margin: 1em;
-  padding: 20px;
-  background: transparent url(/images/bg_quote.png) no-repeat 0 0;
+  margin: 1em 0 1.4em;
+  padding: 0 20px 20px 70px;
+  background: transparent url(/images/quote.png) no-repeat 0 0;
   text-align: left;
-  line-height: 22px;
-  font-size: 0.9em;
+  line-height: 24px;
+  font-size: 1em;
 }
 /* line 94, ../_sass/color.scss */
 blockquote div {
+  margin-top: 10px;
   font-style: italic;
   text-align: right;
   font-size: 0.8em;
@@ -413,15 +414,28 @@ div#under-footer {
   background-image: url("/images/bg_lower_footer.jpg");
 }
 
-div#under-footer a {
-  margin: auto;
+div#under-footer h3 {
+  color: #fff;
+  text-shadow: 0 -2px 0 rgba(0,0,0,.6);
+  text-align: center;
+}
+
+#brought {
+  margin: 10px auto 0;
+  padding: 30px 0 0;
+  border-top: 1px dotted rgba(255,255,255,.5);
+  width: 600px;
+}
+
+div#under-footer #brought a {
   display: block;
+  margin: auto;
   width: 300px;
   text-align: center;
   opacity: .8;
 }
 
-div#under-footer a:hover {
+div#under-footer #brought a:hover {
   opacity: 1;
 }
 
