@@ -408,7 +408,66 @@ div#plans div.plan.all div.header {
   background: #187fc0 url("/images/plans/bkg-blue.jpg") repeat-x bottom left;
 }
 
-/* line 401, ../_sass/color.scss */
+nav#clients {
+  width: 980px;
+  margin: 20px auto 30px;
+}
+
+nav#clients ul {
+  height: 80px;
+}
+
+nav#clients ul li {
+  margin: 0 20px;
+  float: left;
+}
+
+nav#clients ul li a {
+  text-indent: -9999px;
+  opacity: .8;
+  display: block;
+}
+
+nav#clients ul li a:hover {
+  opacity: 1;
+}
+
+nav#clients ul li a#mobits {
+  width: 133px;
+  height: 66px;
+  background: transparent url("/images/clients/mobits.png") no-repeat center left;
+}
+
+nav#clients ul li a#inov9 {
+  width: 117px;
+  height: 66px;
+  background: transparent url("/images/clients/inov9.png") no-repeat center left;
+}
+
+nav#clients ul li a#riosoft {
+  width: 121px;
+  height: 66px;
+  background: transparent url("/images/clients/riosoft.png") no-repeat center left;
+}
+
+nav#clients ul li a#novofoco {
+  width: 151px;
+  height: 66px;
+  background: transparent url("/images/clients/novofoco.png") no-repeat center left;
+}
+
+nav#clients ul li a#modulus {
+  width: 147px;
+  height: 66px;
+  background: transparent url("/images/clients/modulus.png") no-repeat center left;
+}
+
+nav#clients ul li a#lcr {
+  width: 60px;
+  height: 66px;
+  background: transparent url("/images/clients/lcr.png") no-repeat center left;
+}
+
 div#under-footer {
   padding: 40px 0;
   background-image: url("/images/bg_lower_footer.jpg");
@@ -416,14 +475,15 @@ div#under-footer {
 
 div#under-footer h3 {
   color: #fff;
-  text-shadow: 0 -2px 0 rgba(0,0,0,.6);
+  text-shadow: 0 -2px 0 rgba(0,0,0,.4);
   text-align: center;
+  clear: both;
 }
 
 #brought {
   margin: 10px auto 0;
   padding: 30px 0 0;
-  border-top: 1px dotted rgba(255,255,255,.5);
+  border-top: 1px dotted rgba(255,255,255,.2);
   width: 600px;
 }
 
